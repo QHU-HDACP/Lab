@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>研究方向（高性能计算）</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation" style="margin-left: 9%;margin-right: 9%">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><b>Graph computing system and High performance computing Group</b></a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="Introduction.html">简介</a></li>
+                <li class="dropdown">
+                    <a href="Direction.html" class="dropdown-toggle" data-toggle="dropdown">
+                        研究方向 <b class="caret"></b>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="GCS.html" class="text-center">图计算系统</a></li>
+                        <!--<li class="divider"></li>-->
+                        <li class="active"><a href="HPC.html" class="text-center">高性能计算</a></li>
+                        <!--<li class="divider"></li>-->
+                        <li><a href="CV.html" class="text-center">计算机视觉</a></li>
+                    </ul>
+                </li>
+                <li><a href="LabMembers.html">实验室成员</a></li>
+                <li><a href="Paper.html">发表论文</a></li>
+                <li><a href="Honor.html">奖励荣誉</a></li>
+                <li><a href="Activity.html">团建活动</a></li>
+                <li><a href="Join.html">加入我们</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="panel panel-default" style="margin-left: 9%;margin-right: 9%;">
+    <div class="panel-body">
+        <div class="row-fluid"> <!-- class="row-fluid" class="container"-->
+            <div class="col-md-9">
+                <h2 class="text-center">高性能计算（High Performance Computing）</h2>
+                <br>
+                <br>
+                <br>
+                <image src="fig6.jpg" style="width: 40%;margin-left: 28%" class="text-center" alt="Cinque Terre"> </image>
+                <br>
+                <p style="margin-left: 10%;margin-right: 10%;margin-top: 3%;line-height: 2em;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高性能计算（High performance computing）指通常使用很多处理器（作为单个机器的一部分）或者某一集群中组织的几台计算机（作为单个计算资源操作）的计算系统和环境。高性能集群上运行的应用程序一般使用并行算法，把一个大的普通问题根据一定的规则分为许多小的子问题，在集群内的不同节点上进行计算，而这些小问题的处理结果，经过处理可合并为原问题的最终结果。由于这些小问题的计算一般是可以并行完成的，从而可以缩短问题的处理时间。
+                </p>
+                <p style="margin-left: 10%;margin-right: 10%;margin-top: 3%;line-height: 2em;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高性能集群在计算过程中，各节点是协同工作的，它们分别处理大问题的一部分，并在处理中根据需要进行数据交换，各节点的处理结果都是最终结果的一部分。高性能集群的处理能力与集群的规模成正比，是集群内各节点处理能力之和，但这种集群一般没有高可用性。高性能计算的分类方法很多。这里从并行任务间的关系角度来对高性能计算分类。
+                </p>
+                <p style="margin-left: 10%;margin-right: 10%;margin-top: 3%;line-height: 2em;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>高吞吐计算（High-throughput Computing）</b>是高性能计算的类别之一，可以把它分成若干可以并行的子任务，而且各个子任务彼此间没有什么关联。因为这种类型应用的一个共同特征是在海量数据上搜索某些特定模式，所以把这类计算称为高吞吐计算。所谓的Internet计算都属于这一类。按照Flynn的分类，高吞吐计算属于SIMD
+                    （Single Instruction Multiple Data ，单指令多数据流）的范畴。
+                </p>
+                <p style="margin-left: 10%;margin-right: 10%;margin-top: 3%;line-height: 2em;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>分布计算（Distributed Computing）</b>刚好和高吞吐计算相反，它们虽然可以分成若干并行的子任务，但是子任务间联系紧密，需要大量的数据交换。按照Flynn的分类，分布式的高性能计算属于MIMD（Multiple Instruction Multiple Data，多指令流-多数据流）的范畴。
+                </p>
+                <p style="margin-left: 10%;margin-right: 10%;margin-top: 3%;line-height: 2em;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>高性能计算机典型的应用领域有：</b>
+                    <br>
+                    <b> 1. 气象预报：</b>借助超级计算机能够模拟复杂的气流、洋流变化，能够预测天气走向。
+                    <br>
+                    <b> 2. 计算化学应用：</b>传统的计算化学主要是研究原子和分子尺度的小分子体系的行为和相互作用。在这个领域里使用的计算理论主要包括Hartree-Fock方法（HF）、密度泛函理论（DFT）、多体扰动理论（MBPT）、组态相互作用理论（CI）和藕合簇理论（CC）等。高性能计算机能很好解决这些计算的准确性。
+                    <br>
+                    <b> 3. 发现生命秘密：</b>从基因学的数据密集型研究到细胞网络模拟，超级计算机将帮助寻找生命的秘密。
+                    <br>
+                    还有<b>流体力学</b>、<b>地质模拟</b>等大型科学计算领域、以及<b>人工智能</b>的一些领域。
+                </p>
+
+
+
+            </div>
+            <div class="col-md-3" style="margin-top: 5%">
+                <hr style="border-width: 8px 0px 0px;">
+                <h4 class="text-center">相关链接</h4>
+                <ul class="nav nav-tabs nav-stacked">
+                    <li class="text-center"><a href='https://www.qhu.edu.cn/'>青海大学</a></li>
+                    <li class="text-center"><a href='https://cs.qhu.edu.cn/'>青海大学计算机系</a></li>
+                    <li class="text-center"><a href='https://www.ccf.org.cn/'>中国计算机学会</a></li>
+                    <li class="text-center"><a href='https://www.ccf.org.cn/Academic_Evaluation/By_category/'>CCF推荐会议/期刊目录</a></li>
+                    <li class="text-center"><a href='https://www.ccf.org.cn/Chapters/TC/TC_Listing/TCHPC/'>CCF高性能计算专业委员会</a></li>
+                </ul>
+                <hr style="border-width: 8px 0px 0px;">
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
