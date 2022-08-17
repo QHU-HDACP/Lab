@@ -1,0 +1,61 @@
+.teacher{
+	width: 205px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.teacher img{
+	width: 200px;
+	height: 200px;
+}
+.student{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card-text{
+	font-size: 0.85rem;
+}
+.card-title{
+	font-size: 1.1rem;
+}
+.student img{
+	width: 100px;
+	height: 130px;
+	padding: 4px;
+	border: 1px solid #ddd;
+}
+.stu-name{
+	margin: 15px;
+	font-size: 0.59rem;
+}
+.stu-name p{
+	color: #507DBC; 
+}
+.nav-item a{
+	cursor: pointer;
+}
+
+.nav-tabs{
+	margin-top: 20px;
+}
+.nav-link{
+    color: #495057;
+}
+.nav-link:hover{
+	color: #495057;
+    font-weight: 700; 
+}
+.active{
+	font-weight: 700;
+}
+li{
+	list-style: none;
+}
+.card{
+	padding: 5px;
+	padding-bottom: 0px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.13), 0 0 1px rgba(0,0,0,0.1);
+	/* box-shadow: 0 4px 10px rgba(0,0,0,0.13), 0 0 1px rgba(0,0,0,0.1); */
+}

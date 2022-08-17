@@ -1,300 +1,379 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>青海大学HDACP实验室</title>
-    <link rel="icon" href="HDACP.png">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body>
 
-<nav class="navbar navbar-default" role="navigation" style="margin-left: 9%;margin-right: 9%">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                    data-target="#example-navbar-collapse">
-                <span class="sr-only">切换导航</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><img src="fig0.png" style="width: 200px;height: 100px;margin-top: -35px;margin-left: -30px;"></a><!-- <b>HDACP</b>-->
+<!doctype html>
+<html lang="en">
+	<head>
+        <title>青海大学HDACP实验室</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Main CSS --> 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Main CSS --> 
+<link rel="stylesheet" href="css/baguetteBox.min.css">
+<!-- style CSS --> 
+<link rel="stylesheet" href="css/style1-0043.css">
+	    <!-- home CSS --> 
+		<link rel="stylesheet" href="css/home1-0043.css">
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?22f0823eee0f3258e7b7903c2749d7c6";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+			</script>			
+    </head>
+
+    <body>
+    <!-- Header -->
+<div class="header-wrap" style="height: 80px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 head-left">
+				<img width="280" height="60" src="res/home/icon.jpg" >
+				<!-- <h1 class="head-left-h1" style="color: #507DBC">LANDS</h1> -->
+				<!-- <h1 class="head-left-h1" style="font-size: 0.9rem;">Laboratory for Advanced Networking and Data Science</h1> -->
+            </div>
+            <div class="col-6 head-left" >
+                <img class="head-right-img" src="res/home/head.jpg" >
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="example-navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="Lab.html">实验室简介</a></li>
-                <li><a href="Introduction.html">导师专栏</a></li>
-                <li class="dropdown">
-                    <a href="Direction.html" class="dropdown-toggle" data-toggle="dropdown">
-                        研究方向 <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="GCS.html" class="text-center">图计算系统</a></li>
-                        <li><a href="HPC.html" class="text-center">高性能计算</a></li>
-                        <li><a href="CV.html" class="text-center">计算机视觉</a></li>
-                        <li><a href="GC.html" class="text-center">绿色计算</a></li>
+    </div>
+</div>
+
+
+ <!-- Main navigation -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container">   
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="navbar-collapse collapse" id="collapsibleNavbar">
+	    <ul class="navbar-nav" >
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">主页</a>
+	      </li>
+			<li class="nav-item <%=1%>">
+		      <a class="nav-link" href="research0.html?1-0042">研究介绍</a>
+		    </li>
+	      <li class="nav-item <%=2%>">
+	        <a class="nav-link" href="people.html">科研团队</a>
+	      </li>       
+	      <li class="nav-item <%=3%>">
+	        <a class="nav-link" href="news0.html">新闻动态</a>
+	      </li>  
+	      <li class="nav-item <%=4%>">
+	        <a class="nav-link" href="project.html">科研项目</a>
+	      </li>  
+	      <li class="nav-item <%=5%>">
+	        <a class="nav-link" href="contactus.html">联系我们</a>
+	      </li> 
+		  
+	    </ul>
+	  </div>  
+	</div>
+</nav>	
+
+	<div class="container" >
+		<div class="row">
+  			<div class="col-lg-6" style="padding: 5px;">
+				<div id="newsimg" class="carousel slide" data-ride="carousel">
+				  <!-- 指示符 -->
+				  <!-- <ul class="carousel-indicators">
+				    <li data-target="#newsimg" data-slide-to="0" class="active"></li><li data-target="#newsimg" data-slide-to="1"></li>
+				  </ul> -->
+				 
+				  <!-- 轮播图片 -->
+				  <div class="carousel-inner">
+					<div class="carousel-item active"><a href="#"><img height="550" width="500" src="res/home/carousel/hezhao3.jpg"><div class="carousel-caption " ><h5>CCF高性能年会</h5></div></a></div>
+					<div class="carousel-item"><a href="#"><img height="550" width="500" src="res/home/carousel/hezhao2.jpg"><div class="carousel-caption " ><h5>我们毕业啦！！！</h5></div></a></div>
+					<div class="carousel-item"><a href="#"><img height="550" width="500" src="res/home/carousel/hezhao4.jpg"><div class="carousel-caption " ><h5>CCF高性能年会</h5></div></a></div>
+					<div class="carousel-item"><a href="#"><img height="550" width="500" src="res/home/carousel/hezhao.jpg"><div class="carousel-caption " ><h5>CCF高性能年会</h5></div></a></div>
+					
+				  </div>
+				 
+				  <!-- 左右切换按钮 -->
+				  <a class="carousel-control-prev" href="#newsimg" data-slide="prev">
+				    <span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#newsimg" data-slide="next">
+				    <span class="carousel-control-next-icon"></span>
+				  </a>			 
+			</div>
+		</div>
+		
+		<div class="col-lg-6" style="padding: 5px;"> 
+			<div class="card">
+				<div class="titlerow mt">
+                    <div class="col-6 text-left">
+                    	<span class="title-before"></span>
+                        <h5 class="wiget-title"><b>简介</b></h5>
+                    </div>
+                
+				</div>
+				<hr color="#507DBC">
+				<p style="font-size: 0.9rem;"><font size=2.9>
+				<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;青海大学高性能与云计算研究所HDACP实验室(High-performance computing and Distributed systems, 
+				Computer vision and Pattern recognition)成立于2020年，
+				是青海大学高性能与云计算研究所开展国内外广泛交流的高性能计算与分布式系统以及计算机视觉研究的科研小组。
+				HDACP实验室的目标是：依托研究所，建立起具有国内外知名水平的研究组。
+				</br>
+				 <br>&nbsp;&nbsp;&nbsp;&nbsp;HDACP实验室的研究方向聚焦于高性能计算、大规模图计算系统的设计与优化、绿色计算，重点面向高性能计算系统、智能计算系统，提高系统的数据通信性能瓶颈，提高系统整体性能和能效比。
+				 具体研究内容涵盖大规模系统性能评估、MPI应用性能优化等、智能计算系统（包括但不限于大规模深度学习框架优化）、绿色计算。
+				 </br>
+				 <br>&nbsp;&nbsp;&nbsp;&nbsp;我们的实验室拥有十分浓厚的学术氛围，大家可以对研究过程中出现的任何问题做自由讨论。
+				 并且我们会按时进行一周一次的组会讨论，对你遇到的各种学术问题予以解决，以帮助你更快的成长。
+				 我们还会定期参加大型的学术交流会，例如全国高性能计算学术年会、CNCC中国计算机大会等，
+				 让你能够充分的接触到相关研究方向的国内外学术大咖。与此同时，我们还会全力支持对于成功发表论文的同学外出做学术交流。
+				 </br>
+				 <br>&nbsp;&nbsp;&nbsp;&nbsp; 期待你的加入!!!
+				  </font>
+				 </p>
+				
+			</div>
+		</div>
+  </div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-5" style="padding: 5px;">
+			<div class="card"> 
+				<div class="titlerow mt">
+                    <div class="col-6 text-left">
+                    	<span class="title-before"></span>
+                        <h5 class="wiget-title"><b>最新动态</b></h5>
+                    </div>
+                    <div class="col-6 text-right" >               
+						<a href="news0.html" class="more-btn"><p>更多</p></a>
+                    </div>
+				</div>
+				<hr color="#507DBC">
+				
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2022</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">第二十四届IEEE International Conference on High Performance Computing and Communications
+(HPCC-2022)正在征文</a>
+		<!-- 恭喜：我组戴海鹏老师入选2019年度教育部青年长江学者！ -->
+    </div>
+</div>
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2022</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">恭喜：我组黄建强老师论文 Large-Scale Graph Triangle-Counting on a single Machine using GPUs被TPDS(CCF A, 国际顶级期刊)收录</a>
+    </div>
+	
+</div><div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2022</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">第十四届中国计算机图形学大会在我校顺利召开</a>
+		<!-- 恭喜：我组田冰川同学入选 “2019 年南京大学学生年度人物风采展示” -->
+    </div>
+</div>
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2021</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="msn2020-ecaiss.htm">恭喜：我校超算团队在ASC世界大学生超级计算机竞赛中获得一等奖</a>
+    </div>
+</div>
+
+		
+		
+		
+		
+				
+</div>
+</div>
+		<div class="col-lg-4" style="padding: 5px;"> 
+			<div class="card">
+				<div class="titlerow mt">
+                    <div class="col-6 text-left">
+                    	<span class="title-before"></span>
+                        <h5 class="wiget-title"><b>最新论文</b></h5>
+                    </div>
+                    <div class="col-6 text-right" >               
+						<a href="news1.html" class="more-btn"><p>更多</p></a>
+                    </div>
+				</div>		
+				<hr color="#507DBC">				
+
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2022</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">祝贺：本组硕士生张琨同学论文被计算机工程(中文核心)录用</a>
+		<!-- 祝贺：我组一篇论文被IEEE INFOCOM 2021 接收 -->
+    </div>
+</div>
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2022</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="res/news/icde2021habf.html">祝贺：本组硕士生黄东强同学论文被郑州大学学报工学版(中文核心)录用</a>
+		<!-- 祝贺：本组2019级硕士生谢榕彪及博士生李猛同学论文被IEEE ICDE 2021录用 -->
+    </div>
+</div>
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2022</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">祝贺：本组硕士生张琨同学论文被小型微型计算机系统(中文核心)录用</a>
+		<!-- 祝贺：我组一篇论文被IEEE INFOCOM 2021 接收 -->
+    </div>
+</div>
+
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2021</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">祝贺：本组硕士生赵梦梦同学论文被sci期刊Energies录用</a>
+		
+    </div>
+</div>
+
+<div class="home-news news-im">
+    <div class="date">
+    	<span class="day">2021</span>
+    	<span class="year"></span>
+	</div>	
+    <div class="newsinfo">
+		<a href="#">祝贺：本组硕士生边浩东同学论文被sci期刊Future Generation Computer Systems录用</a>
+    </div>
+</div>
+
+			</div>
+		</div>
+		<div class="col-lg-3" style="padding: 5px;"> 
+			<div class="card">					
+				<div class="titlerow mt">
+                    <div class="col-6 text-left">
+                        <span class="title-before"></span>
+                        <h5 class="wiget-title"><b>研究方向</b></h5>
+                    </div>
+                    <div class="col-6 text-right" >               
+						<a href="research0.html" class="more-btn"><p>更多</p></a>
+                    </div>
+				</div>
+				<hr color="#507DBC">
+				<ul class="research-ul">
+					<li class="research-li">
+	<div class="li-img">
+		<img src="res/research/gaoxing.jpg">
+	</div>
+	<div class="li-text">
+		<h5 class="color-text" title="高性能计算">高性能计算</h5>
+	
+	</div>
+</li><li class="research-li">
+	<div class="li-img">
+		<img src="res/research/tujisuan.jpg">
+	</div>
+	<div class="li-text">
+		<h5 class="color-text" title="图计算系统">图计算系统</h5>
+
+	</div>
+</li>
+
+<li class="research-li">
+	<div class="li-img">
+		<img src="res/research/shendu.jpg">
+	</div>
+	<div class="li-text">
+		<h5 class="color-text" title="深度学习">深度学习</h5>
+	</div>
+</li>
+
+<!-- <li class="research-li">
+	<div class="li-img">
+		<img src="res/research/shijue.jpg">
+	</div>
+	<div class="li-text">
+		<h5 class="color-text" title="计算机视觉">计算机视觉</h5>
+	</div>
+</li>
+
+<li class="research-li">
+	<div class="li-img">
+		<img src="res/research/lvse.jpg">
+	</div>
+	<div class="li-text">
+		<h5 class="color-text" title="绿色计算">绿色计算</h5>
+	</div>
+</li> -->
+
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+		    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-lists">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <ul>
+                        <li><h4>地址</h4></li>
+                        <li>青海省西宁市宁大路251号</li>
+                        <li>青海大学计算机技术与应用系111实验室</li>
+                      
+                        <!-- <li><span style="color: white">Phone： </span></li> -->
+                       
                     </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="LabMembers.html" class="dropdown-toggle" data-toggle="dropdown">
-                        实验室成员 <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="master.html" class="text-center">硕士生</a></li>
-                        <li><a href="Undergraduate.html" class="text-center">本科生</a></li>
+                </div>
+                <div class="col-lg">
+                    <ul>
+                        <li><h4>扫描下方二维码关注青海大学计算机系公众号</h4></li>
+                        <li><img src="res/qrcode.jpg"></li>
                     </ul>
-                </li>
-                <li><a href="Academic.html">学术交流</a></li>
-                <li><a href="Honor.html">奖励荣誉</a></li>
-                <li><a href="Lecture.html">大咖讲座</a></li>
-                <li><a href="Competition.html">科技竞赛</a></li>
-                <li><a href="Activity.html">团建活动</a></li>
-                <li><a href="Join.html">加入我们</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-
-<div class="custom-notice" style="margin-left: 9%;margin-right: 9%;">
-    <div class="custom-notice" style="margin-top: 3%;">
-        <h2 class="text-center"><b>青海大学HDACP实验室</b></h2>
-        <br>
-        <div class="text-center">
-            <i class="fa fa-eye">&nbsp;&nbsp;
-                <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-                <span id="busuanzi_container_page_pv">
-                          <span id="busuanzi_value_page_pv"></span>
-                </span>
-            </i>
-        </div>
-        <br>
-    </div>
-</div>
-
-
-<div class="panel" style="margin-left: 18%;margin-right: 18%;">
-    <div class="col-md-12">
-        <div id="myCarousel" class="carousel slide" >
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-                <li data-target="#myCarousel" data-slide-to="4"></li>
-                <li data-target="#myCarousel" data-slide-to="5"></li>
-                <li data-target="#myCarousel" data-slide-to="6"></li>
-                <li data-target="#myCarousel" data-slide-to="7"></li>
-            </ol>
-
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="fig24.jpg" alt="Eighth slide" class="img-responsive center-block">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>我们毕业啦^_^</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig3.jpg" alt="First slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>CNCC 2019</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig22.jpg" alt="Second slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>HPC China 2019</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig4.jpg" alt="Fourth slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>CNCC Night 2019</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig17.jpg" alt="Fifth slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>ISPA 2019</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig18.jpg" alt="Sixth slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>ISPA 2019</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig19.jpg" alt="Seventh slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>HPC China 2019</b>
-                        </h4>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="fig21.jpg" alt="Eighth slide">
-                    <div class="carousel-caption">
-                        <h4>
-                            <b>ICA3PP 2019</b>
-                        </h4>
-                    </div>
-                </div>
-
-            </div>
-
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="custom-notice" style="margin-left: 9%;margin-right: 9%;">
-    <div class="panel-body">
-        <div class="row-fluid">
-            <div class="col-md-12" style="margin-top:3%;">
-                <h3><b>实验室新闻</b></h3>
-                <hr style="border-width: 3px 0px 0px;">
-                <div class="col-md-6" style="margin-top: 1%;">
-                    <div style="margin-top: 1%;">
-                        <li style="list-style: none">1. 2019-08-16
-                            <a href="#" style="text-decoration:none;color: black">
-                                <b>热烈祝贺李阳贵副教授获得“国家基金--大规模泥石流数值模拟的异构并行计算技术研究”</b>
-                            </a>
-                        </li>
-                        <br>
-                        <li style="list-style: none">2. 2019-08-16
-                            <a href="#" style="text-decoration:none;color: black">
-                                <b>热烈祝贺黄建强副教授获得“国家重点实验室开放基金---基于三江源数据分析平台的全球数值天气预报系统的性能优化技术研究”</b>
-                            </a>
-                        </li>
-                        <br>
-                        <li style="list-style: none">3. 2019-03-18
-                            <a href="#" style="text-decoration:none;color: black">
-                                <b>热烈祝贺罗佩聪、王晓英等的论文被Applied Sciences 2019录用（SCI期刊、影响因子2.217）</b>
-                            </a>
-                        </li>
-                    </div>
-                </div>
-                <div class="col-md-6" style="margin-top: 1%;">
-                    <div style="margin-top: 1%;">
-                        <li style="list-style: none">2019-04-19
-                            <a href="#" style="text-decoration:none;color: black">
-                                <b>热烈祝贺李玉玲、王晓英等的论文被Energies 2019录用（SCI期刊、影响因子2.707）</b>
-                            </a>
-                        </li>
-                        <br>
-                        <li style="list-style: none">2020-03-24
-                            <a href="#" style="text-decoration:none;color: black">
-                                <b>热烈祝贺李凯、杨圣豪等的论文被IET Image Process录用（CCF C类期刊）</b>
-                            </a>
-                        </li>
-                        <br>
-                        <li style="list-style: none">2019-12-15
-                            <a href="https://www.likai.show/archives/ispa2019%E4%B9%8B%E6%97%85" style="text-decoration:none;color: black">
-                                <b>热烈祝贺黄建强、李凯等的论文被IEEE ISPA 2019录用（CCF C类会议）</b>
-                            </a>
-                        </li>
-                        <br>
-                    </div>
+                </div>   
+                <div class="col-lg">
+                    <ul>
+                        <li><h4>常用链接</h4></li>
+                        <li><a href="https://www.qhu.edu.cn/">青海大学</a></li>
+						<li><a href="https://cs.qhu.edu.cn/">青海大学计算机技术与应用系</a></li>
+						<li><a href="https://www.ccf.org.cn/">中国计算机学会</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/func.js"></script>
+<script type="text/javascript">
 
-<div class="custom-notice" style="margin-left: 9%;margin-right: 9%;">
-    <div class="panel-body">
-        <div class="row-fluid">
-            <div class="col-md-12">
-                <h3><b>相关链接</b></h3>
-                <hr style="border-width: 3px 0px 0px;">
-                <div style="margin-top: 1%;margin-left: 2%">
-                    <div class="container">
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://www.qhu.edu.cn/' style="text-decoration:none;color: black">
-                                青海大学
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://cs.qhu.edu.cn/' style="text-decoration:none;color: black">
-                                青海大学计算机系
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://www.ccf.org.cn/' style="text-decoration:none;color: black">
-                                中国计算机学会
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://www.ccf.org.cn/Academic_Evaluation/By_category/' style="text-decoration:none;color: black">
-                                CCF推荐会议/期刊目录
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://www.ccf.org.cn/Chapters/TC/TC_Listing/TCHPC/' style="text-decoration:none;color: black">
-                                CCF高性能计算专业委员会
-                            </a>
-                        </button>
-                    </div>
-                    <div class="container" style="margin-top: 0.5%;">
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='http://hpcchina2020.csp.escience.cn/dct/page/1' style="text-decoration:none;color: black">
-                                CCF高性能计算学术年会
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://dl.acm.org/' style="text-decoration:none;color: black">
-                                ACM数字图书馆
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://ieeexplore.ieee.org/' style="text-decoration:none;color: black">
-                                IEEE学术文献库
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://dblp.uni-trier.de/' style="text-decoration:none;color: black">
-                                dblp学术文献库
-                            </a>
-                        </button>
-                        <button type="button" class="btn" style="width: 19%">
-                            <a href='https://www.myhuiban.com/' style="text-decoration:none;color: black">
-                                Conference Partner
-                            </a>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="navbar navbar-default" role="navigation" style="margin-left: 9%;margin-right: 9%;margin-bottom: 1%;margin-top: 2%;">
-    <div class="text-center" style="margin-top: 1%;">
-        <p class="text-center" style="font-size: 16px;color: grey"><b>Copyright &copy; 2020 : 青海大学HDACP实验室&nbsp;&nbsp;&nbsp;&nbsp;地址：青海省西宁市宁大路251号青海大学计算机技术与应用系&nbsp;&nbsp;&nbsp;&nbsp;邮编：810016</b></p>
-    </div>
-</div>
-</body>
+</script>
+<!--     <script type="text/javascript" src="js/popper.js"></script> -->
+    </body>
 </html>

@@ -1,0 +1,42 @@
+
+.home-news{
+	font-size:0.85rem;
+	min-height: 60px;
+	margin-bottom: 10px;
+
+}
+.home-news a{
+	color: black;
+}
+.news-im a{
+	color:#507DBC;
+	font-weight: 700;
+}
+.newsinfo{
+	margin-left: 80px;
+}
+.date{
+	width: 50px;
+    height: 50px;
+    float: left;
+	border-radius: 4px;
+	border: 1px solid #f0f0f0;
+	font-size: 0.8rem;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.date span{
+	display: block;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.day{
+	height: 25px;
+	color: #fff;
+    background-color: #507DBC;
+}
+.year{
+	height: 25px;
+	color: #507DBC;
+}
